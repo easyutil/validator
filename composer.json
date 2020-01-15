@@ -1,0 +1,28 @@
+{
+    "name": "easyutil/validator",
+    "description": "Custom validations",
+    "type": "library",
+    "require": {
+        "easyutil/utilities": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Vitor Piaia",
+            "email": "vitor.piaia@hotmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Easyutil\\Validator\\ValidatorServiceProvider"
+            ]
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Easyutil\\Validator\\": "src/"
+        }
+    }
+}
